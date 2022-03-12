@@ -1,0 +1,36 @@
+What are the two values of the Boolean data type? How do you write them?
+answer
+True and False are two kind of boolean variable. 
+boolean x=True
+boolen y=False
+
+What are the three different types of Boolean operators?
+answer
+AND, OR, NOT
+
+ Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+answer
+spam=int(input())
+if spam==1:
+  print("Hello")
+elif spam==2:
+  print("Howdy")
+else:
+  print("Greetings")
+  
+ If your programme is stuck in an endless loop, what keys you’ll press?
+ answer
+ ctrl+c
+ 
+ Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+answer
+for i in range(0,11):
+  print(i)
+  
+ using while:
+ i=0
+ while(i<11):
+  print(i)
+  i=i+1
